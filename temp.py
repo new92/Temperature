@@ -11,7 +11,7 @@ elif "seasons" == "Summer" and temp >= 10 or temp <= 19:
     print("Good ! The temperature is in normal levels :) ")
 elif "seasons" == "Summer" and temp >= 20 or temp <= 27: 
     print("The temperature is high :( Consider lowing it down")
-elif "seasons" == "Summer" and temp > 28: 
+elif "seasons" == "Summer" and temp >= 28: 
     print("Be careful !! The temperature is in extremely high levels ! Low it down !!")
 #Winter
 elif "seasonw" == "Winter" and temp >= -10 or temp <= 9:
